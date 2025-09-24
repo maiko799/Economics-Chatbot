@@ -1,0 +1,219 @@
+[GDP]
+Gross Domestic Product (GDP) measures the total value of all final goods and services produced within a country in a specific time period.
+
+Q: What does GDP measure?
+C: Government spending | National savings | Total economic output
+A: total economic output
+
+Q: GDP includes which of the following?
+C: Used goods | Intermediate goods | Final goods
+A: final goods
+
+[Inflation]
+Inflation refers to the general rise in prices over time, decreasing the purchasing power of money.
+
+Q: What is the main consequence of inflation?
+C: Increased purchasing power | Decreased purchasing power | Lower production costs
+A: decreased purchasing power
+
+Q: Which policy is often used to reduce inflation?
+C: Lower interest rates | Increase money supply | Raise interest rates
+A: raise interest rates
+
+[Unemployment]
+Unemployment occurs when people who are willing and able to work cannot find jobs.
+
+Q: Which of the following is a type of unemployment?
+C: Structural | External | Fiscal
+A: structural
+
+Q: Which unemployment type results from economic downturns?
+C: Seasonal | Frictional | Cyclical
+A: cyclical
+
+[Monetary Policy]
+Monetary policy involves managing interest rates and the money supply by central banks to control inflation and stabilize the economy.
+
+Q: Who implements monetary policy?
+C: Private banks | Parliament | Central bank
+A: central bank
+
+Q: What happens when a central bank increases interest rates?
+C: Inflation rises | Borrowing becomes more expensive | Currency depreciates
+A: borrowing becomes more expensive
+
+[Fiscal Policy]
+Fiscal policy refers to the use of government spending and taxation to influence economic activity.
+
+Q: What is an example of expansionary fiscal policy?
+C: Increasing taxes | Cutting government spending | Increasing infrastructure investment
+A: increasing infrastructure investment
+
+Q: What happens when government spending exceeds revenue?
+C: Budget surplus | Trade balance | Budget deficit
+A: budget deficit
+
+[Aggregate Demand]
+Aggregate demand is the total quantity of goods and services demanded across all levels of an economy at a given price level.
+
+Q: Which of the following affects aggregate demand?
+C: Government spending | Interest rates | Both
+A: both
+
+Q: Which component is NOT part of aggregate demand?
+C: Consumer spending | Exports | Unemployment rate
+A: unemployment rate
+
+[Supply and Demand]
+The law of supply and demand determines price in a market economy, where higher demand or lower supply tends to increase price.
+
+Q: What happens when supply exceeds demand?
+C: Prices rise | Prices fall | Prices remain unchanged
+A: prices fall
+
+Q: What causes a movement along the demand curve?
+C: Change in income | Change in preferences | Change in price
+A: change in price
+
+[Elasticity]
+Elasticity measures how much quantity demanded or supplied responds to changes in price.
+
+Q: What does it mean if a good is price elastic?
+C: Demand doesn't change with price | Demand changes significantly with price | Price remains fixed
+A: demand changes significantly with price
+
+Q: What type of good has inelastic demand?
+C: Luxury car | Salt | Smartwatch
+A: salt
+
+[Utility Maximization]
+Consumers aim to allocate their resources in a way that maximizes their satisfaction or utility.
+
+Q: What is required for utility maximization?
+C: Unlimited budget | Fixed preferences and budget | Increasing prices
+A: fixed preferences and budget
+
+Q: Which condition must be satisfied for optimal consumption?
+C: Total revenue is maximized | Marginal utility per dollar is equal | Price is minimized
+A: marginal utility per dollar is equal
+
+[Opportunity Cost]
+Opportunity cost is the value of the next best alternative foregone when a choice is made.
+
+Q: What does opportunity cost reflect?
+C: Past expenses | Sunk cost | Foregone alternatives
+A: foregone alternatives
+
+Q: If you choose to work instead of studying, the opportunity cost is:
+C: Your wage | The time saved | The knowledge not gained
+A: the knowledge not gained
+
+[Production Possibility Frontier]
+The PPF shows the maximum possible output combinations of two goods that an economy can produce using all resources efficiently.
+
+Q: A point inside the PPF indicates:
+C: Efficient production | Underutilization | Infeasibility
+A: underutilization
+
+Q: What does a bowed-out PPF indicate?
+C: Constant opportunity cost | Decreasing returns | Increasing opportunity cost
+A: increasing opportunity cost
+
+[Game Theory]
+Game theory analyzes strategic interactions where the outcome depends on the actions of others.
+
+Q: What is a Nash equilibrium?
+C: Maximum profit for all players | No player can gain by changing strategy unilaterally | All players cooperate
+A: no player can gain by changing strategy unilaterally
+
+Q: What is the dominant strategy in the prisoner's dilemma?
+C: Cooperate | Remain silent | Defect
+A: defect
+
+[Perfect Competition]
+Perfect competition is a market structure where many firms sell identical products, and no single firm can influence price.
+
+Q: In perfect competition, firms are:
+C: Price takers | Price setters | Monopoly holders
+A: price takers
+
+Q: What happens in the long run in perfect competition?
+C: Supernormal profits remain | Firms exit due to losses | Normal profit is earned
+A: normal profit is earned
+
+[Monopoly]
+A monopoly exists when a single firm controls the entire market for a product with no close substitutes.
+
+Q: What is a key feature of monopoly?
+C: Many competitors | Price taking behavior | Market power
+A: market power
+
+Q: Why are monopolies considered inefficient?
+C: They create jobs | They set lower prices | They restrict output
+A: they restrict output
+
+[Oligopoly]
+An oligopoly is a market dominated by a few large firms, often resulting in strategic behavior like price-fixing or collusion.
+
+Q: What characterizes an oligopoly?
+C: Many small firms | No entry barriers | Few dominant firms
+A: few dominant firms
+
+Q: What is the outcome of collusion in oligopoly?
+C: Lower prices | Higher competition | Monopoly-like pricing
+A: monopoly-like pricing
+
+[Price Discrimination]
+Price discrimination occurs when a firm charges different prices to different customers for the same product.
+
+Q: Which of the following is an example of price discrimination?
+C: Student discounts | Inflation pricing | Bulk production
+A: student discounts
+
+Q: Which condition allows price discrimination?
+C: Identical buyers | Perfect competition | Market segmentation
+A: market segmentation
+
+[Cost Structures]
+In business economics, cost structures refer to the types of costs (fixed vs variable) a firm incurs in production.
+
+Q: Which is a fixed cost?
+C: Raw materials | Rent | Labor per unit
+A: rent
+
+Q: Variable cost changes with:
+C: Number of managers | Production level | Factory size
+A: production level
+
+[Break-Even Analysis]
+Break-even analysis determines the output level at which total revenue equals total cost, resulting in no profit or loss.
+
+Q: What happens at the break-even point?
+C: Profit is maximized | Revenue equals cost | Losses are high
+A: revenue equals cost
+
+Q: Which of the following increases the break-even point?
+C: Higher price per unit | Lower fixed costs | Higher variable costs
+A: higher variable costs
+
+[SWOT Analysis]
+SWOT analysis is a strategic business tool for identifying strengths, weaknesses, opportunities, and threats.
+
+Q: What part of SWOT reflects external factors?
+C: Strengths | Weaknesses | Opportunities
+A: opportunities
+
+Q: Which is an internal factor in SWOT?
+C: Threats | Weaknesses | Opportunities
+A: weaknesses
+
+[Market Failure]
+Market failure occurs when free markets fail to allocate resources efficiently, leading to loss of welfare.
+
+Q: What is a common cause of market failure?
+C: Perfect information | Externalities | Competitive pricing
+A: externalities
+
+Q: Public goods lead to market failure due to:
+C: Rivalry | Excludability | Free-rider problem
+A: free-rider problem
