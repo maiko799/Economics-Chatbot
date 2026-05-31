@@ -1,22 +1,15 @@
-# Economics Learning Chatbot
+Economics-Chatbot
 
-A rule-based chatbot built to strengthen students’ understanding of core economics concepts through structured dialogue and guided practice.
+A small teaching chatbot and interactive frontend for basic economics concepts.
 
-## Highlights
+Files
+- [backend/chatbot.py](backend/chatbot.py): Flask-based backend (NLP intent matching with NLTK).
+- [frontend/index.html](frontend/index.html): Chat UI and interactive tools.
+- [frontend/script.js](frontend/script.js): Client logic for chat and interactive charts.
+- [frontend/styles.css](frontend/styles.css): Pink/feminine theme + responsive layout.
+- [requirements.txt](requirements.txt): Python dependencies for the backend.
 
-* Reinforces microeconomics and macroeconomics fundamentals
-* Uses predefined logic and decision trees
-* Designed for clarity, consistency, and learning effectiveness
-
-## Target Users
-
-* High school and undergraduate economics students
-
-## Tech Focus
-
-* Hardcoded conversational logic
-* Educational system design
-
-## Purpose
-
-This project demonstrates applied logic design, educational tooling, and subject-matter translation into interactive systems.
+Usage
+- Type questions in the chat or click a topic to get explanations and examples.
+- Open the Tools panel to see the Supply & Demand demo, PPF simulator, and Price Control mini-game.
+- Charts use Chart.js from a CDN; an internet connection is required for the CDN asset.

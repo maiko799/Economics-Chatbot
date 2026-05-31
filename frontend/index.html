@@ -2,18 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Economics Learning Chatbot</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="chat-container">
-    <div class="chat-header">Chatbot</div>
-    <div class="chat-box" id="chat-box"></div>
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Type your message..." />
-      <button id="send-btn">Send</button>
-    </div>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <h1>Economics Learning Chatbot</h1>
+        <p>Ask about economics concepts, explore topics to learn, and get clear explanations in a friendly chat.</p>
+      </div>
+      <button id="new-chat-btn" class="secondary-btn">New chat</button>
+    </header>
+
+    <section class="chat-wrapper">
+      <div class="topics-panel">
+        <h2>Try a topic</h2>
+        <div class="topic-buttons" id="topic-buttons">
+          <button class="topic-btn" data-topic="GDP">GDP</button>
+          <button class="topic-btn" data-topic="inflation">Inflation</button>
+          <button class="topic-btn" data-topic="unemployment">Unemployment</button>
+          <button class="topic-btn" data-topic="monetary policy">Monetary policy</button>
+          <button class="topic-btn" data-topic="fiscal policy">Fiscal policy</button>
+          <button class="topic-btn" data-topic="aggregate demand">Aggregate demand</button>
+          <button class="topic-btn" data-topic="exchange rate">Exchange rate</button>
+        </div>
+        <button id="show-topics-btn" class="secondary-btn">Show all topics</button>
+        <div class="topic-list">
+          <p>More topics to explore:</p>
+          <ul>
+            <li>Comparative advantage</li>
+            <li>Externalities</li>
+            <li>Public goods</li>
+            <li>Price ceiling</li>
+            <li>Price floor</li>
+            <li>Consumer surplus</li>
+            <li>Producer surplus</li>
+            <li>Economic growth</li>
+          </ul>
+        </div>
+        <div class="tools-panel">
+          <h3>Interactive tools</h3>
+          <button class="topic-btn" id="sd-tool-btn">Supply & Demand Demo</button>
+          <button class="topic-btn" id="ppf-tool-btn">PPF Simulator</button>
+          <button class="topic-btn" id="price-game-btn">Price Control Game</button>
+        </div>
+      </div>
+
+      <div class="chat-panel">
+        <div class="chat-header">Economics Tutor</div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="tool-area" id="tool-area">
+          <div id="sd-tool" class="tool-card hidden">
+            <h4>Supply & Demand</h4>
+            <canvas id="sd-chart" height="240"></canvas>
+            <div class="controls">
+              <label>Demand intercept: <input id="d0" type="range" min="10" max="200" value="120"/></label>
+              <label>Demand slope: <input id="d1" type="range" min="1" max="10" value="3"/></label>
+              <label>Supply intercept: <input id="s0" type="range" min="0" max="100" value="10"/></label>
+              <label>Supply slope: <input id="s1" type="range" min="1" max="10" value="2"/></label>
+            </div>
+            <div id="sd-info" class="tool-info"></div>
+          </div>
+
+          <div id="ppf-tool" class="tool-card hidden">
+            <h4>PPF Simulator</h4>
+            <canvas id="ppf-chart" height="240"></canvas>
+            <div class="controls">
+              <label>Resources: <input id="ppf-r" type="range" min="10" max="200" value="100"/></label>
+              <label>Good A efficiency: <input id="ppf-a" type="range" min="1" max="10" value="2"/></label>
+              <label>Good B efficiency: <input id="ppf-b" type="range" min="1" max="10" value="3"/></label>
+            </div>
+            <div id="ppf-info" class="tool-info"></div>
+          </div>
+
+          <div id="price-game" class="tool-card hidden">
+            <h4>Price Control Game</h4>
+            <p>Set a price ceiling or floor and see the market result.</p>
+            <label>Price control type:
+              <select id="pc-type"><option value="none">None</option><option value="ceiling">Ceiling</option><option value="floor">Floor</option></select>
+            </label>
+            <label>Control price: <input id="pc-price" type="range" min="1" max="100" value="20"/></label>
+            <div id="pc-info" class="tool-info"></div>
+          </div>
+        </div>
+        <div class="input-area">
+          <input type="text" id="user-input" placeholder="Type a question or ask for topics..." autocomplete="off" />
+          <button id="send-btn" class="primary-btn">Send</button>
+        </div>
+        <div class="status-line" id="status-line">Connected to backend at <strong>http://localhost:5000/chat</strong></div>
+      </div>
+    </section>
   </div>
 
   <script src="script.js"></script>
